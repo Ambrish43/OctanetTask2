@@ -1,0 +1,70 @@
+.App-header{
+  text-align: center;
+  height: 80px;
+  background-color: aqua;
+
+}
+
+.App-header h1{
+  padding: 10px;
+  color: whitesmoke;
+}
+.elementSet1{
+  margin-bottom: 30px;
+  padding-top: 30px;
+  
+}
+
+.App-rest{
+  background-image: url("https://kinsight.org/wp-content/uploads/2022/03/Surveyor--scaled.jpg") ;
+  background-position: center;
+  background-size: cover;
+  height:100vh
+}
+
+.body{
+  margin: 0%;
+  padding: 0%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.taskinput{
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.output ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.output li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  margin: 10px;
+  background-color: wheat;
+}
+
+.task-container {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.output input[type='checkbox'] {
+  margin-right: 10px;
+}
+
+.output button {
+  margin-left: 10px;
+  cursor: pointer;
+}
